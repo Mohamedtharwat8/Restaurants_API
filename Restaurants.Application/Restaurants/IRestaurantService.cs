@@ -11,5 +11,6 @@ namespace Restaurants.Application.Restaurants
     {
             
         Task<IEnumerable<Restaurant>> GetAllRestaurants();
+        Task<Restaurant> GetByIdAsync(int id);
     }
 }
